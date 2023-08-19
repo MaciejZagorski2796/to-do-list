@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista zadań</title>
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+
+
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+
+        <form class="js-form form">
+            <header class="form__header">
+                <h1 class="form__h1">Lista zadań</h1>
+            </header>
+
+            <fieldset class="form__fieldsetLabel">
+                <p class="form__paragraph">Dodaj nowe zadanie</p>
+            </fieldset>
+            <fieldset class="form__fieldsetInput">
+                <input class="js-newTask form__input" placeholder="Co jest do zrobienia?" autofocus>
+                <button class="js-button form__addTaskButton">Dodaj zadanie</button>
+            </fieldset>
+            <fieldset class="form__fieldsetTitle">
+                <p class="form__paragraph">Lista zadań</p>
+            </fieldset>
+            <fieldset class="form__fieldsetList">
+
+                <ul class="js-tasks form__ul"></ul>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

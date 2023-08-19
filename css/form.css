@@ -1,0 +1,121 @@
+
+.form {
+    background-color: #efebeb;
+    max-width: 80%;
+    min-width: 70%;
+}
+
+.form__header {
+    background-color: #efebeb;
+    border: none;
+    display: flex;
+    margin: 1px;
+}
+
+
+.form__fieldsetInput {
+    background-color: #ffffff;
+    border: none;
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px rgb(185, 183, 183);
+
+}
+
+.form__input {
+    flex-grow: 3;
+}
+
+.form__fieldsetTitle {
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    display: flex;
+    margin: 5px 1px 1px 1px;
+    padding-left: 15px;
+    box-shadow: 5px rgb(185, 183, 183);
+
+}
+
+/* obszar w ktorym sie tworzy lista wraz z batonami */
+.form__fieldsetList {
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    display: grid;
+    margin: 1px;
+    box-shadow: 5px rgb(185, 183, 183);
+}
+
+.form__ul {
+    list-style-type: none;
+    display: grid;
+    padding:0px;
+    margin:0px;
+}
+
+
+.form__fieldsetLabel {
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+    box-shadow: 5px rgb(185, 183, 183);
+
+}
+
+
+
+.form__addTaskButton {
+    background-color:teal;
+    color: white;
+    padding: 11px;
+    border: none;
+    margin: 7px;
+    transition: background 0.5s 0.5s linear;
+}
+
+.form__addTaskButton:hover{
+    background-color:rgb(98, 154, 154);
+}
+
+
+.form__input {
+    padding: 11px;
+    margin: 7px;
+}
+
+.form__h1 {
+    color: black;
+    font-weight: bold;
+}
+
+
+.form__paragraph {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+@media (max-width: 767px) {
+    .form__fieldsetInput {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    ;
+
+}
+
+@media (max-width: 767px) {
+    .form {
+        min-width: 90%;
+    }
+}
+
+;

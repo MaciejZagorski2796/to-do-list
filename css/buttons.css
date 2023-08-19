@@ -1,0 +1,35 @@
+.buttons__remove {
+    background-color: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 3px;
+    grid-column-start:3;
+    transition: background 1s 0.5s linear;
+
+}
+
+.buttons__done {
+    background-color: green;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    justify-items: center;
+    grid-column-start: 1;
+    transition: background 0.5s 0.5s linear;
+
+}
+
+.buttons__done:hover{
+    background-color: rgb(68, 125, 68) ;
+
+}
+
+
+.buttons__remove:hover {
+    background-color: rgb(237, 125, 125);
+}

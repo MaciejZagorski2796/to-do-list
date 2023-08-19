@@ -1,0 +1,8 @@
+.container {
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    justify-items: center;
+    max-width:900px;
+    padding:20px;
+    margin: 0 auto;
+}
